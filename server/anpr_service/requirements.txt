@@ -1,0 +1,20 @@
+# web / uploads
+fastapi>=0.95.0
+uvicorn[standard]>=0.22.0
+python-multipart>=0.0.6
+
+# imaging
+opencv-python-headless>=4.7.0
+pillow>=9.5.0
+numpy>=1.24.0
+
+# keep as fallback if you want ultralytics+easyocr pipeline available
+ultralytics>=8.0.0
+easyocr>=1.6
+
+# FastALPR (ONNX-based ALPR)
+fast-alpr>=0.1.2
+fast-plate-ocr>=0.3.0
+
+# ONNX runtime: macOS / Apple Silicon (CPU)
+onnxruntime>=1.15.0
